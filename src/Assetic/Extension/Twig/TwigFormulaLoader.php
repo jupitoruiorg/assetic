@@ -25,7 +25,7 @@ class TwigFormulaLoader implements FormulaLoaderInterface
     private $twig;
     private $logger;
 
-    public function __construct(\Twig_Environment $twig, LoggerInterface $logger = null)
+    public function __construct(\Twig_Environment $twig, ?LoggerInterface $logger = null)
     {
         $this->twig = $twig;
         $this->logger = $logger;
