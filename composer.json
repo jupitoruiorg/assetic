@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^8.3",
-        "symfony/process": "^7.0"
+        "symfony/process": "^7.0|^8.0"
     },
     "require-dev": {
         "leafo/lessphp": "^0.5",
